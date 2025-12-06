@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/vennelachowdaryannamareddy/Library Management System/output/MAIN'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: __Z10saveToFilev, symObjAddr: 0x0, symBinAddr: 0x100002F70, symSize: 0xFC }
+  - { offset: 0x3F, size: 0x8, addend: 0x0, symName: _library, symObjAddr: 0x2A6C, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0xAF, size: 0x8, addend: 0x0, symName: _countBooks, symObjAddr: 0x549C, symBinAddr: 0x10000AA30, symSize: 0x0 }
+  - { offset: 0xBD, size: 0x8, addend: 0x0, symName: __Z10saveToFilev, symObjAddr: 0x0, symBinAddr: 0x100002F70, symSize: 0xFC }
+  - { offset: 0x101, size: 0x8, addend: 0x0, symName: __Z12loadFromFilev, symObjAddr: 0xFC, symBinAddr: 0x10000306C, symSize: 0xE0 }
+  - { offset: 0x129, size: 0x8, addend: 0x0, symName: __Z7addBookv, symObjAddr: 0x1DC, symBinAddr: 0x10000314C, symSize: 0x150 }
+  - { offset: 0x142, size: 0x8, addend: 0x0, symName: __Z10searchBooki, symObjAddr: 0x32C, symBinAddr: 0x10000329C, symSize: 0xA0 }
+  - { offset: 0x18A, size: 0x8, addend: 0x0, symName: __Z10deleteBookv, symObjAddr: 0x3CC, symBinAddr: 0x10000333C, symSize: 0x148 }
+  - { offset: 0x1EA, size: 0x8, addend: 0x0, symName: __Z15updateBookTitlev, symObjAddr: 0x514, symBinAddr: 0x100003484, symSize: 0xD8 }
+  - { offset: 0x220, size: 0x8, addend: 0x0, symName: __Z9issueBookv, symObjAddr: 0x5EC, symBinAddr: 0x10000355C, symSize: 0xB4 }
+  - { offset: 0x256, size: 0x8, addend: 0x0, symName: __Z10returnBookv, symObjAddr: 0x6A0, symBinAddr: 0x100003610, symSize: 0xB0 }
+  - { offset: 0x28C, size: 0x8, addend: 0x0, symName: __Z16countIssuedBooksv, symObjAddr: 0x750, symBinAddr: 0x1000036C0, symSize: 0xAC }
+  - { offset: 0x2D0, size: 0x8, addend: 0x0, symName: __Z12displayBooksv, symObjAddr: 0x7FC, symBinAddr: 0x10000376C, symSize: 0x104 }
+  - { offset: 0x306, size: 0x8, addend: 0x0, symName: __Z21displayAvailableBooksv, symObjAddr: 0x900, symBinAddr: 0x100003870, symSize: 0x100 }
+  - { offset: 0x34A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA00, symBinAddr: 0x100003970, symSize: 0x1D4 }
+...
